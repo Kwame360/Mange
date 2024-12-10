@@ -19,7 +19,7 @@ export default function Navbar({ onCartClick, onSearch, onHelpClick }) {
         <div className="flex flex-col px-4">
           {/* Top row for mobile */}
           <div className="flex items-center justify-between h-16 md:hidden">
-            <span className="text-xl font-bold text-green-600">Magical Munch</span>
+            <span className="text-xl font-bold text-green-600">Mange</span>
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
               className="p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-green-500 relative"
