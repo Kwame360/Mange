@@ -50,7 +50,7 @@ export default function Navbar({ onCartClick, onSearch, onHelpClick }) {
           {/* Desktop layout */}
           <div className="hidden md:flex items-center justify-between h-16">
             <div className="flex items-center">
-              <span className="text-xl font-bold text-green-600">Magical Munch</span>
+              <span className="text-xl font-bold text-green-600">Mange</span>
             </div>
             
             <div className="flex-1 max-w-xl px-8">
